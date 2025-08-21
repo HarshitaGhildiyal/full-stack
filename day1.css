@@ -1,0 +1,17 @@
+h1{
+    font-size:40px;
+    color:blue;
+    background-color:black 
+}
+/*red is value 
+color property
+style attribute
+SYNTAX: <!--COMMMENT HERE-->
+1:-ELEMENT SELECTOR:select html elements based on their tag name,uniform styling,syntax:select that element(specific use)
+2:- UNIVERSAL SELECTOR: (*)targets and styles all elements on a webpage,broad styling,reset styles:reset margins and paddings globally
+3:-id &class property:it assings unique identifier to a single html element
+class: for grouping of multiple html elements to style them collectively,reusable classes
+both properties,specificity and targetting
+hover :apply rule when mouse is over element
+descendant selector: styles elements nested within a specific element
+RGB(RANGE 0-255)SYNTAX:- rgb(r,g,b)

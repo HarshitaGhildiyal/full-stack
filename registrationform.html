@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <h2 > Form</h2>
+    <form action="submit" method="post">
+        <label for="name"> Name:</label><br>
+        <input type="text" id="Name" name="name" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male"required><br><br> 
+        <label for="male">Male:</label>
+        <input type="radio" id="female" name="gender" value="female"required><br><br> 
+        <label for="female">Female:</label><br><br>
+        
+
+
+
+        <label for="country">country:</label><br>  
+        <select id="country" name=" country" required>
+            <option value="">--Select--</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+
+          
+
+        <label for="skills" >skills:</label><br> 
+        <input type="checkbox" name="skills" value="HTML">HTML
+        <input type="checkbox" name="skills" value="CSS">CSS
+        <input type="checkbox" name="skills" value="JAVASCRIPT">JAVASCRIPT
+        
+         
+
+        <input type="submit" id="submit" name="submit" required><br><br>
+</body>
+</html>
